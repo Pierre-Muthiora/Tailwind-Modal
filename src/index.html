@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>Document</title>
+</head>
+<body class="relative bg-no-repeat bg-center bg-cover bg-fixed h-screen" style="background-image:url('/src/trees.jpg')">
+    
+    <button id="open-modal" class="absolute w-80 h-20 bottom-16 inset-x-36 md:bottom-16 md:left-12 border-2 border-white rounded-xl pb-4 shadow-lg shadow-lime-400 text-white  hover:bg-white hover:text-black transition ease-in-out duration-700">
+        <p class="text-6xl hover:text-lime-400">Support Us</p>
+    </button>
+    
+    
+    <div id="modal-container" class="hidden absolute left-28 top-32 md:left-1/3 bg-white shadow-inner shadow-black w-96 h-64 py-2 px-5 rounded-xl justify-between items-center">
+        <div class="leading-8">
+            <div class="flex justify-between font-bold text-3xl mb-4">
+                <h1><a class="text-lime-400 hover:text-lime-500" href="#">Green4Lyf</a> Foundation</h1>
+                <div id="close-modal" class="hover:text-red-500 cursor-pointer">&times;</div>
+            </div>
+            <p class="text-center text-xl font-semibold">Join us with our a million plus supporters across the globe in planting 2 million trees by the end of this year.</p>
+            <div class="text-center mt-4">
+                <p class="text-xl font-bold">Feel free to donate to our course</p>
+                <h2 class="text-3xl font-bold underline text-lime-400 hover:text-lime-500">
+                    <a href="#">Donate here</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
